@@ -1,4 +1,4 @@
-import { textFileOptions } from "./globals";
+import { textFileOptions } from "./constants";
 
 export const getTextFile = async () => {
   const [fileHandle] = await showOpenFilePicker(textFileOptions);

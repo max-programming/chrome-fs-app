@@ -1,4 +1,4 @@
-import { videoFileOptions } from "./globals";
+import { videoFileOptions } from "./constants";
 
 export const getVideoFile = async () => {
   const [fileHandle] = await showOpenFilePicker(videoFileOptions);

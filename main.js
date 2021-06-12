@@ -1,7 +1,7 @@
 import { getTextFile } from "./js/getText";
 import { getImageFile } from "./js/getImage";
 import { getVideoFile } from "./js/getVideo";
-import { bufferToURL } from "./js/globals";
+import { bufferToURL } from "./js/constants";
 
 const textSelect = document.getElementById("textSelect");
 const imgSelect = document.getElementById("imgSelect");
